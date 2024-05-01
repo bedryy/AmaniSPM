@@ -23,7 +23,7 @@ let package = Package(
 //            dependencies: [
 //                .product(name: "OpenSSL", package: "OpenSSL") // OpenSSL ürününe bağımlılık eklendi
 //            ],
-            path: "../PublishAmaniSPM"
+            path: "../PublishAmaniSPM/PublishAmaniSPM"
         ),
 //        .binaryTarget(
 //            name: "AmaniSDKBinary", // Binary hedefi
