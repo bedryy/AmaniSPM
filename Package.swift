@@ -20,9 +20,9 @@ let package = Package(
     targets: [
         .target(
             name: "AmaniSDK", // AmaniSDK hedefi
-            dependencies: [
-                .product(name: "OpenSSL", package: "OpenSSL") // OpenSSL ürününe bağımlılık eklendi
-            ],
+//            dependencies: [
+//                .product(name: "OpenSSL", package: "OpenSSL") // OpenSSL ürününe bağımlılık eklendi
+//            ],
             path: "Users/bbedry/Desktop/AmaniAi/PublishAmaniSPM/PublishAmaniSPM"
         ),
         .binaryTarget(
