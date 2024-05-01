@@ -23,12 +23,12 @@ let package = Package(
 //            dependencies: [
 //                .product(name: "OpenSSL", package: "OpenSSL") // OpenSSL ürününe bağımlılık eklendi
 //            ],
-            path: "Users/bbedry/Desktop/AmaniAi/PublishAmaniSPM/PublishAmaniSPM"
+            path: "../PublishAmaniSPM"
         ),
-        .binaryTarget(
-            name: "AmaniSDKBinary", // Binary hedefi
-            url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniSDK/v3.3.8/AmaniSDK.xcframework.zip?raw=true",
-            checksum: "f4f05590fd9b513967a0ec2cb82dd145bfd4b40f3e4f3215f15b007f03ceb934"
-        )
+//        .binaryTarget(
+//            name: "AmaniSDKBinary", // Binary hedefi
+//            url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniSDK/v3.3.8/AmaniSDK.xcframework.zip?raw=true",
+//            checksum: "f4f05590fd9b513967a0ec2cb82dd145bfd4b40f3e4f3215f15b007f03ceb934"
+//        )
     ]
 )
